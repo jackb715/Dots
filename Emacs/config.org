@@ -87,6 +87,10 @@ Define languages which can be evaluated in org buffers.
       :desc "Open vterm"
       "o t" #'vterm)            ;; my preferred terminal opens up like vscode
 (map! :leader
+      :desc "vterm/here"
+      "o T" #'+vterm/here)
+
+(map! :leader
       :desc "List bookmars"
       "o B" #'list-bookmarks)   ;; bookmarks are nice for things like your configuration
 
