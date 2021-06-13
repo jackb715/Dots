@@ -8,6 +8,7 @@ font:
 background_opacity: 1.0
 
 # Colors (Horizon Dark)
+# Same theme as emacs
 colors:
   # Primary colors
   primary:

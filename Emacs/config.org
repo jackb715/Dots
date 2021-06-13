@@ -1,8 +1,10 @@
 #+TITLE: Emacs Config
 #+AUTHOR: Jack Burns
 #+DATE: <2021-06-11 Fri>
-
+#+OPTIONS: toc:nil
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="https://gongzhitaao.org/orgcss/org.css"/>
 #+PROPERTY: header-args:emacs-lisp :tangle ~/.doom.d/config.el
+
 
 * Doom Emacs
 I'm using doom-emacs which comes loaded with vim friendly keybinds and does some stuff under the hood to make emacs snappy. Highly recommend checking out the [[https://github.com/hlissner/doom-emacs][github]].
